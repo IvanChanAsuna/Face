@@ -38,7 +38,7 @@ python app.py
 ```bash
 npm run serve
 ```
-
+### 训练
 如果想要自己训练模型，训练识别是否是自己，你可以在user_photos里装入你自己的照片，然后启用一下命令：
 ```bash
 python run.py
