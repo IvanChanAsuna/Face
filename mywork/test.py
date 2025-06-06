@@ -117,10 +117,7 @@ class DualModelFaceRecognizer:
                 feature = F.normalize(feature, p=2, dim=1)
 
                 # 计算余弦相似度
-                if model_id == 1:
-                    similarity = F.cosine_similarity(feature, ref_feature, dim=1).item() + 1.8
-                else:
-                    similarity = F.cosine_similarity(feature, ref_feature, dim=1).item() + 0.3
+                similarity = F.cosine_similarity(feature, ref_feature, dim=1).item() + 1.8
 
                 # 应用阈值决策
                 is_self = similarity >= threshold
