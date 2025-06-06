@@ -3,9 +3,9 @@
 
 ## ✨ 核心特性  
 - **人脸识别**：基于深度特征匹配的人脸识别登录系统  
-- **低光增强检测**：集成DAI-Net算法，暗光环境识别准确率提升30%  
+- **低光人脸检测**：集成DAI-Net算法，暗光环境可以检测人脸
 - **全栈架构**：Flask后端RESTful API + Vue3前端动态交互  
-- **GPU加速**：深度优化支持RTX 4090的Tensor Core计算  
+- **GPU加速**：使用RTX 4090的Tensor Core计算  
 ## 🎯 系统概览
 ![登录](demo.png)
 ![人脸检测](demo2.png)
@@ -39,7 +39,7 @@ python app.py
 npm run serve
 ```
 ### 训练
-如果想要自己训练模型，训练识别是否是自己，你可以在user_photos里装入你自己的照片，然后启用一下命令：
+如果想要自己训练模型，训练识别是否是自己，你可以在/mywork/data/user_photos里装入你自己的照片，然后启用一下命令：
 ```bash
 python run.py
 ```
