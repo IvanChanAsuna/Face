@@ -10,10 +10,10 @@
 ![登录](demo.png)
 ![人脸检测](demo2.png)
 ## 🚀 快速部署  
-### 后端环境安装（Python 3.8）  
+### 后端环境安装（Python 3.7）  
 ```bash
 # 创建Conda环境（推荐）  
-conda create -n face_system python=3.8  
+conda create -n face_system python=3.7  
 conda activate face_system  
 
 # 安装PyTorch（CUDA 11.3）  
