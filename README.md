@@ -6,7 +6,9 @@
 - **低光增强检测**：集成DAI-Net算法，暗光环境识别准确率提升30%  
 - **全栈架构**：Flask后端RESTful API + Vue3前端动态交互  
 - **GPU加速**：深度优化支持RTX 4090的Tensor Core计算  
-
+## 🎯 系统概览
+![登录](demo.png)
+![人脸检测](demo2.png)
 ## 🚀 快速部署  
 ### 后端环境安装（Python 3.8）  
 ```bash
